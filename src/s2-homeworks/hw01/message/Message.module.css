@@ -14,9 +14,10 @@ padding: 10px;
 }
 
 .imageAndText img {
-    width: 50px;
-    height: 50px;
-    margin: 0 356px auto ;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    margin:10px 356px auto ;
 }
 
 .text {
@@ -36,5 +37,8 @@ padding: 10px;
 }
 
 .time {
- position: absolute;
+    position: absolute;
+    margin: auto auto -13px 370px;
+    font-weight: bold;
+    font-size: 10px;
 }
