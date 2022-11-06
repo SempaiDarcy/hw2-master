@@ -8,6 +8,7 @@ type AffairsPropsType = {
     setFilter: (filter: FilterType) => void
     deleteAffairCallback:  (_id: number) => void
     filter: FilterType
+
 }
 
 function Affairs(props: AffairsPropsType) {
