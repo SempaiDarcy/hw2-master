@@ -36,8 +36,9 @@ const defaultAffairs: Array<AffairType> = [ // need to fix any
 
 // pure helper functions
 export const filterAffairs = (affairs: Array<AffairType>, filter: FilterType): Array<AffairType> => { // need to fix any
-    if (filter === 'all') return affairs
-    return affairs.filter(el => el.priority === filter)
+    // if (filter === 'all') return affairs
+    // return affairs.filter(el => el.priority === filter)
+    return filter === 'all'? affairs: affairs.filter(item => item.priority === filter)
 
     // need to fix
 }
