@@ -1,4 +1,8 @@
 .button {
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    color: white;
 }
 
 .disabled {
@@ -8,9 +12,11 @@
 }
 
 .default {
+    background: #0066CC;
 }
 
 .red {
+    background-color: red
 }
 
 .default:hover {
